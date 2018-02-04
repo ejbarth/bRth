@@ -1,13 +1,13 @@
 Package: bRth
-Title: Some Base R Commands Modified for More Uniform Input Arguments 
+Title: Some Base R Commands Modified for Uniform Input Argument Structure 
 Version: 0.0.0.9000
 Authors@R: person("Eric", "Barth", email = "ejbarth@gmail.com", role = c("aut", "cre"))
 Description: bRth provides a collection of base R commands
     for summary statistics (mean, sd, table, median, fivenum, etc)
     that have been modified to employ a uniform input argument calling strategy, 
-	including data=<dataframe> and the ability
+    including data=<dataframe> and the ability
     to input a formula var1~var2 in places that the base commands 
-	accept only pairs of variables (cor, table).
+    accept only pairs of variables (cor, table).
 Depends: R (>= 3.4.3)
 License: GPL-3
 Encoding: UTF-8
