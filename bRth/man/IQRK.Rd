@@ -14,7 +14,9 @@ IQRK(var1, data, na.rm = FALSE, type = 7)
 \item{x}{a variable}
 }
 \value{
-IQR
+IQRK is a wrapper for base::IQR
+   that adds the functionality of specifying data=<dataset>
+   in the input arguments
 }
 \description{
 Compute the inter quartile range (IQR) of a quantitative variable

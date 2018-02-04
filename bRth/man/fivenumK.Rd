@@ -14,7 +14,9 @@ fivenumK(var1, data, na.rm = FALSE)
 \item{x}{a variable}
 }
 \value{
-five number summary
+fivenumK is a wrapper for base::fivenum
+   that adds the functionality of specifying data=<dataset>
+   in the input arguments
 }
 \description{
 Compute the five number summary of a quantitative variable

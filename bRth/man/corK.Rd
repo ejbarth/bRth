@@ -16,7 +16,10 @@ corK(arg1, arg2 = NULL, data, na.rm = FALSE)
 \item{y}{a variable (set to NULL if x is a formula)}
 }
 \value{
-correlation
+corK is a wrapper for base::cor
+   that adds the optional functionality of passing a function x~y
+   and the NA handling option na.rm=
+   for consistency with plot() and lm()
 }
 \description{
 Compute correlation from quantitative variable(s)

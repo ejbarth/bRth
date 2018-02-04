@@ -5,7 +5,9 @@
 #' @param x a variable 
 #' @param data specify a dataset for the variables x and y
 #' @param na.rm select whether to omit NA, default is FALSE
-#' @return five number summary
+#' @return fivenumK is a wrapper for base::fivenum
+#'    that adds the functionality of specifying data=<dataset>
+#'    in the input arguments
 #' @examples 
 #' fivenumK(Height,data=StudentSurvey)
 #' fivenumK(Height,data=StudentSurvey,na.rm=TRUE)

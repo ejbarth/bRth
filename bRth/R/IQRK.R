@@ -5,7 +5,9 @@
 #' @param x a variable 
 #' @param data specify a dataset for the variables x and y
 #' @param na.rm select whether to omit NA, default is FALSE
-#' @return IQR
+#' @return IQRK is a wrapper for base::IQR
+#'    that adds the functionality of specifying data=<dataset>
+#'    in the input arguments
 #' @examples 
 #' IQRK(Height,data=StudentSurvey)
 #' IQRK(Height,data=StudentSurvey,na.rm=TRUE)

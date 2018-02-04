@@ -5,7 +5,9 @@
 #' @param x a variable 
 #' @param data specify a dataset for the variables x and y
 #' @param na.rm select whether to omit NA, default is FALSE
-#' @return mean value
+#' @return meanK is a wrapper for base::mean
+#'    that adds the functionality of specifying data=<dataset>
+#'    in the input arguments
 #' @examples 
 #' meanK(Height,data=StudentSurvey)
 #' meanK(Height,data=StudentSurvey,na.rm=TRUE)

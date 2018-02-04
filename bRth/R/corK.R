@@ -6,7 +6,10 @@
 #' @param y a variable (set to NULL if x is a formula)
 #' @param data specify a dataset for the variables x and y
 #' @param na.rm  determine whether to omit NA,  default is FALSE
-#' @return correlation
+#' @return corK is a wrapper for base::cor
+#'    that adds the optional functionality of passing a function x~y
+#'    and the NA handling option na.rm=
+#'    for consistency with plot() and lm() 
 #' @examples 
 #' corK(Height,Weight,data=StudentSurvey)
 #' corK(Height~Weight, data=StudentSurvey)

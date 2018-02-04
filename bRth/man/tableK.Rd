@@ -14,7 +14,10 @@ tableK(var1, var2 = NULL, data)
 \item{y}{a variable (set to NULL if x is a formula)}
 }
 \value{
-a table
+tableK is a wrapper for base::table
+   that adds the functionality of specifying data=<dataset>
+   and the option of providing a function x~y 
+   in the input arguments
 }
 \description{
 Create a table from categorical variable(s)

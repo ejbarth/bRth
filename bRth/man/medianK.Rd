@@ -14,7 +14,9 @@ medianK(var1, data, na.rm = FALSE)
 \item{x}{a variable}
 }
 \value{
-standard deviation
+medianK is a wrapper for base::median
+   that adds the functionality of specifying data=<dataset>
+   in the input arguments
 }
 \description{
 Compute the median of a quantitative variable

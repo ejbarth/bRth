@@ -14,7 +14,9 @@ sdK(var1, data, na.rm = FALSE)
 \item{x}{a variable}
 }
 \value{
-standard deviation
+sdK is a wrapper for base::sd
+   that adds the functionality of specifying data=<dataset>
+   in the input arguments
 }
 \description{
 Compute the standard deviation of a quantitative variable

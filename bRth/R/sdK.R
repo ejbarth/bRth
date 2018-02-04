@@ -5,7 +5,9 @@
 #' @param x a variable 
 #' @param data specify a dataset for the variables x and y
 #' @param na.rm select whether to omit NA, default is FALSE
-#' @return standard deviation
+#' @return sdK is a wrapper for base::sd
+#'    that adds the functionality of specifying data=<dataset>
+#'    in the input arguments
 #' @examples 
 #' sdK(Height,data=StudentSurvey)
 #' sdK(Height,data=StudentSurvey,na.rm=TRUE)
