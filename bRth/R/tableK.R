@@ -5,7 +5,10 @@
 #' @param x a variable or a formula x~y
 #' @param y a variable (set to NULL if x is a formula)
 #' @param data specify a dataset for the variables x and y
-#' @return a table
+#' @return tableK is a wrapper for base::table
+#'    that adds the functionality of specifying data=<dataset>
+#'    and the option of providing a function x~y 
+#'    in the input arguments
 #' @examples 
 #' tableK(Gender,data=StudentSurvey)
 #' table(Gender~Smoke, data=StudentSurvey)
