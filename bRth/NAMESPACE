@@ -2,6 +2,7 @@
 
 export(IQRK)
 export(corK)
+export(countK)
 export(dottyK)
 export(fivenumK)
 export(histK)

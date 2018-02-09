@@ -13,15 +13,7 @@
 #' @section bRth functions:
 #' The bRth functions ...
 #'
-#'  corK
-#'  dottyK
-#'  fivenumK
-#'  histK
-#'  IQRK
-#'  meanK
-#'  medianK
-#'  sdK
-#'  tableK
+#'  corK, countK, dottyK, fivenumK, histK, IQRK, meanK, medianK, sdK, tableK
 #'
 #' @docType package
 #' @name bRth

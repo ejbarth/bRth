@@ -20,14 +20,6 @@ The naming convention in bRth is <function_name>K:
 
 The bRth functions ...
 
- corK
- dottyK
- fivenumK
- histK
- IQRK
- meanK
- medianK
- sdK
- tableK
+ corK, countK, dottyK, fivenumK, histK, IQRK, meanK, medianK, sdK, tableK
 }
 
