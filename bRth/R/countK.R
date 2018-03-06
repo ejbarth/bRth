@@ -17,6 +17,6 @@ countK=function(var1,key,data){
     pars=as.list(match.call()[-1])
     x=data[ ,as.character(pars$var1)]
   }
-  length(which(x)==key)
+  length(which(x==key))
 }
 
